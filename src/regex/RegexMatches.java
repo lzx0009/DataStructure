@@ -4,14 +4,10 @@ import java.util.regex.Pattern;
 
 public class RegexMatches {
     public static  void main(String[] args){
-        String lint = "23 42";
-        String pattern = "[\\d ]*";
+        String lint = "2342adfa";
+        String pattern = "[0-9]*[a-z]*";
 
-        if (Pattern.matches(pattern,lint))
-        {
-
-            System.out.println("ok");
-        }
+        System.out.println(Pattern.matches(pattern,lint));
 
 //        Pattern r = Pattern.compile(pattern);
 //        Matcher m = r.matcher(lint);

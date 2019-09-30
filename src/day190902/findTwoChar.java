@@ -2,7 +2,7 @@ package day190902;
 
 public class findTwoChar {
     public static void main(String[] args) {
-        String str = new String("awertca324");
+        String str = new String("86awe6rtca324");
         System.out.println(fingTwoChar(str, str.length()));
     }
 

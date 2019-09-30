@@ -11,7 +11,7 @@ public class Main {
         String map = null;
         Scanner in = new Scanner(System.in);
 
-        System.out.println("ÇëÊäÈëµØÍ¼´óĞ¡£¨ĞĞ ÁĞ£©£º");
+        System.out.println("è¯·è¾“å…¥åœ°å›¾å¤§å°ï¼š");
         if (in.hasNextLine()){
             size_in = in.nextLine().trim();
         }
@@ -25,17 +25,17 @@ public class Main {
 //            int col = Integer.parseInt(arr[1]);
 //            int size = row*col;
 
-            System.out.println("ÇëÊäÈëµØÍ¼£º");
+            System.out.println("è¯·è¾“å…¥åœ°å›¾å†…å®¹ï¼š");
             if (in.hasNextLine()){
                 map = in.nextLine();
             }
             in.close();
-            //µØÍ¼´óĞ¡¼ì²é
+            //ï¿½ï¿½Í¼ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½
 //            if (Util.checkSize(map, size)){
-//                µØÍ¼ÊäÈë¸ñÊ½¼ì²é
+//                ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½
 //
 //                if(Util.checkFormat(map, size)){
-//                    ¶¨ÒåĞĞ¿ªÊ¼¡¢½áÊøÎ»ÖÃ
+//                    ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¿ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
 //                    MapFormat.show(row, col, map);
 //                }else {
 //                    System.out.println("Data mismatch");
